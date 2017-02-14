@@ -22,3 +22,7 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    color: blue;
+}

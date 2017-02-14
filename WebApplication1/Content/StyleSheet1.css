@@ -1,0 +1,52 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: darkolivegreen;
+    color: wheat;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.navbar-inverse, .navbar-collapse, .navbar-inverse, .navbar-form {
+    background-color: black;
+    color: darkolivegreen;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: darkolivegreen;
+    font-weight: bold;
+}
+
+.navbar-inverse {
+    color: darkolivegreen;
+}
+
+.navbar-inverse .navbar-nav > li > a:visited {
+    color: darkolivegreen;
+} 
+
+a {
+    color: black;
+}
+
+dt {
+    color: black;
+}
+
+h2 {
+    color: black;
+}
