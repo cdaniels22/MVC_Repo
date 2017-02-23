@@ -25,7 +25,21 @@ namespace WebApplication1
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/StyleSheet1.css"));
+                      "~/Content/NiceAdmin/css/bootstrap-theme.css",
+                      "~/Content/NiceAdmin/css/bootstrap.min.css"
+                      ));
+
+            bundles.Add(new StyleBundle("~/Content/NiceAdmin/css").Include(
+                      "~/Content/NiceAdmin/css/elegant-icons-style.css",
+                      "~/Content/NiceAdmin/css/font-awesome.css",
+                      "~/Content/NiceAdmin/css/font-awesome.min.css",
+                      "~/Content/NiceAdmin/css/fullcalendar.css",
+                      "~/Content/NiceAdmin/css/line-icons.css",
+                      "~/Content/NiceAdmin/css/owl.carousel.css",
+                      "~/Content/NiceAdmin/css/style-responsive.css",
+                      "~/Content/NiceAdmin/css/style.css",
+                      "~/Content/NiceAdmin/css/widgets.css",
+                      "~/Content/NiceAdmin/css/xcharts.min.css"));
         }
     }
 }

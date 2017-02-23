@@ -822,7 +822,6 @@
     <Content Include="Content\NiceAdmin\profile.html" />
     <Content Include="Content\NiceAdmin\readme.txt" />
     <Content Include="Content\NiceAdmin\widgets.html" />
-    <Content Include="Content\StyleSheet1.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
